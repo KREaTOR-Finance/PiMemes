@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/PiMemes/static/css/main.4d5d4ada.css",
+    "main.js": "/PiMemes/static/js/main.8493cbb7.js",
+    "static/js/143.b0f2ad40.chunk.js": "/PiMemes/static/js/143.b0f2ad40.chunk.js",
+    "static/js/222.6182e995.chunk.js": "/PiMemes/static/js/222.6182e995.chunk.js",
+    "static/js/846.f786cfe1.chunk.js": "/PiMemes/static/js/846.f786cfe1.chunk.js",
+    "static/js/923.01358acf.chunk.js": "/PiMemes/static/js/923.01358acf.chunk.js",
+    "static/js/79.4ec9672b.chunk.js": "/PiMemes/static/js/79.4ec9672b.chunk.js",
+    "static/js/405.493a9ac1.chunk.js": "/PiMemes/static/js/405.493a9ac1.chunk.js",
+    "static/js/53.f854dfc4.chunk.js": "/PiMemes/static/js/53.f854dfc4.chunk.js",
+    "static/js/510.faf0aa14.chunk.js": "/PiMemes/static/js/510.faf0aa14.chunk.js",
+    "static/js/201.ad4063e8.chunk.js": "/PiMemes/static/js/201.ad4063e8.chunk.js",
+    "static/js/97.77a6dd12.chunk.js": "/PiMemes/static/js/97.77a6dd12.chunk.js",
+    "static/js/453.98ad1989.chunk.js": "/PiMemes/static/js/453.98ad1989.chunk.js",
+    "static/js/900.feec4344.chunk.js": "/PiMemes/static/js/900.feec4344.chunk.js",
+    "index.html": "/PiMemes/index.html",
+    "main.4d5d4ada.css.map": "/PiMemes/static/css/main.4d5d4ada.css.map",
+    "main.8493cbb7.js.map": "/PiMemes/static/js/main.8493cbb7.js.map",
+    "143.b0f2ad40.chunk.js.map": "/PiMemes/static/js/143.b0f2ad40.chunk.js.map",
+    "222.6182e995.chunk.js.map": "/PiMemes/static/js/222.6182e995.chunk.js.map",
+    "846.f786cfe1.chunk.js.map": "/PiMemes/static/js/846.f786cfe1.chunk.js.map",
+    "923.01358acf.chunk.js.map": "/PiMemes/static/js/923.01358acf.chunk.js.map",
+    "79.4ec9672b.chunk.js.map": "/PiMemes/static/js/79.4ec9672b.chunk.js.map",
+    "405.493a9ac1.chunk.js.map": "/PiMemes/static/js/405.493a9ac1.chunk.js.map",
+    "53.f854dfc4.chunk.js.map": "/PiMemes/static/js/53.f854dfc4.chunk.js.map",
+    "510.faf0aa14.chunk.js.map": "/PiMemes/static/js/510.faf0aa14.chunk.js.map",
+    "201.ad4063e8.chunk.js.map": "/PiMemes/static/js/201.ad4063e8.chunk.js.map",
+    "97.77a6dd12.chunk.js.map": "/PiMemes/static/js/97.77a6dd12.chunk.js.map",
+    "453.98ad1989.chunk.js.map": "/PiMemes/static/js/453.98ad1989.chunk.js.map",
+    "900.feec4344.chunk.js.map": "/PiMemes/static/js/900.feec4344.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d5d4ada.css",
+    "static/js/main.8493cbb7.js"
+  ]
+}

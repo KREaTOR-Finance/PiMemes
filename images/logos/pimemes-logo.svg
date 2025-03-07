@@ -1,0 +1,24 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#1a1a2e" stroke="#9370DB" stroke-width="4" />
+  
+  <!-- Pi symbol -->
+  <text x="100" y="120" font-family="Arial" font-size="100" fill="#FFD700" text-anchor="middle">π</text>
+  
+  <!-- Meme face elements -->
+  <g fill="#FFD700">
+    <!-- Sunglasses -->
+    <rect x="60" y="80" width="30" height="15" rx="2" />
+    <rect x="110" y="80" width="30" height="15" rx="2" />
+    <rect x="55" y="80" width="90" height="5" />
+    
+    <!-- Smile -->
+    <path d="M70,140 Q100,170 130,140" fill="none" stroke="#FFD700" stroke-width="4" />
+  </g>
+  
+  <!-- Text around the circle -->
+  <path id="textPath" d="M100,30 A70,70 0 1,1 99,30" fill="none" />
+  <text font-family="Arial" font-size="16" fill="#9370DB">
+    <textPath href="#textPath" startOffset="5%">• PIMEMES • MEME COINS • PI NETWORK •</textPath>
+  </text>
+</svg> 

@@ -1,0 +1,53 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Pi symbol pattern -->
+    <pattern id="piPattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <text x="50" y="50" font-family="Arial" font-size="30" fill="#9370DB" fill-opacity="0.1" text-anchor="middle">π</text>
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="800" fill="url(#bgGradient)" />
+  
+  <!-- Pattern overlay -->
+  <rect width="1200" height="800" fill="url(#piPattern)" />
+  
+  <!-- Decorative elements -->
+  <g opacity="0.1">
+    <!-- Circles -->
+    <circle cx="200" cy="150" r="80" fill="none" stroke="#FFD700" stroke-width="2" />
+    <circle cx="1000" cy="650" r="120" fill="none" stroke="#FFD700" stroke-width="2" />
+    <circle cx="600" cy="400" r="200" fill="none" stroke="#9370DB" stroke-width="3" />
+    
+    <!-- Lines -->
+    <line x1="0" y1="200" x2="1200" y2="600" stroke="#9370DB" stroke-width="1" />
+    <line x1="1200" y1="200" x2="0" y2="600" stroke="#9370DB" stroke-width="1" />
+    
+    <!-- Random dots (like stars) -->
+    <g fill="#FFD700">
+      <circle cx="100" cy="100" r="2" />
+      <circle cx="300" cy="200" r="2" />
+      <circle cx="500" cy="150" r="2" />
+      <circle cx="700" cy="300" r="2" />
+      <circle cx="900" cy="250" r="2" />
+      <circle cx="1100" cy="350" r="2" />
+      <circle cx="200" cy="400" r="2" />
+      <circle cx="400" cy="450" r="2" />
+      <circle cx="600" cy="500" r="2" />
+      <circle cx="800" cy="550" r="2" />
+      <circle cx="1000" cy="600" r="2" />
+      <circle cx="150" cy="650" r="2" />
+      <circle cx="350" cy="700" r="2" />
+      <circle cx="550" cy="750" r="2" />
+      <circle cx="750" cy="650" r="2" />
+      <circle cx="950" cy="700" r="2" />
+      <circle cx="1150" cy="750" r="2" />
+    </g>
+  </g>
+</svg> 
