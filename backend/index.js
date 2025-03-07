@@ -32,7 +32,7 @@ app.use('/api/wallet', require('./routes/walletRoutes'));
 
 // Health check endpoint
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok', message: 'PiMemes API is running' });
+  res.status(200).json({ status: 'healthy' });
 });
 
 // Error handling middleware
