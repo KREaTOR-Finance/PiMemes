@@ -1,8 +1,15 @@
 [phases.setup]
-nixPkgs = ['nodejs-18_x', 'npm']
+aptPkgs = ['curl']
+cmds = [
+    'curl -fsSL https://deb.nodesource.com/setup_18.x | bash -',
+    'apt-get install -y nodejs'
+]
 
 [phases.install]
-cmds = ['cd backend && npm install']
+cmds = [
+    'cd backend',
+    'npm install'
+]
 
 [phases.build]
 cmds = ['cd backend && npm run build']

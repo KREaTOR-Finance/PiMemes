@@ -1,14 +1,9 @@
 [build]
 builder = "nixpacks"
-buildCommand = "cd backend && npm install"
-nixpacksConfigPath = "nixpacks.toml"
 
 [deploy]
 startCommand = "cd backend && npm start"
 healthcheckPath = "/health"
 healthcheckTimeout = 100
 restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 10
-
-[nixpacks]
-node-version = "18.x" 
+restartPolicyMaxRetries = 10 
